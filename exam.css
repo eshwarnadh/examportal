@@ -1,0 +1,143 @@
+/* nav */
+
+#jumb {
+    padding: 5px;
+    height: 120px;
+}
+
+#main_name h3{
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    font-size:40px;
+    color:rgb(223, 56, 14);
+}
+
+/* #main_name {
+    margin-top: 50px;
+} */
+
+
+/* exam styles */
+
+#exam-box-sub {
+    width: 600px;
+    margin-top: auto;
+    background-color: lightgreen;
+    box-shadow: 0 0 10px 0px rgb(94, 90, 90);
+}
+
+.exam-btns,
+.opt_display_parent {
+    border-radius: 4px;
+    width: 600px;
+    margin-top: auto;
+}
+
+.container div {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.top_btn button,
+.bottom_btn button {
+    width: 40%;
+}
+
+.add_opt {
+    font-size: 10px;
+}
+
+@media screen and (max-width:600px) {
+    #A,
+    #B,
+    #C,
+    #D,
+    #prev,
+    #next {
+        font-size: 3.1vw;
+    }
+}
+
+#online_exam_box,
+#popRev,
+#time_count,
+#final_result,
+#placeClearAnalysis{
+    display: none;
+}
+
+.modal-header {
+    border-bottom:  none !important;
+}
+
+.modal-footer {
+    border-top:  none !important;
+}
+#time_count {
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width:768px) {
+    #exam-box-sub {
+        width: 550px;
+        margin-top: 10px;
+    }
+}
+
+
+/* topics styles */
+
+.topics-box {
+    width: 600px;
+    margin-top: auto;
+    background-color: lightgreen;
+    box-shadow: 0 0 10px 0px rgb(94, 90, 90);
+    /* padding: 10px; */
+}
+
+.btns-box {
+    width: 600px;
+    margin-top: auto;
+    background-color: lightgreen;
+    box-shadow: 0 0 10px 0px rgb(94, 90, 90);
+    display: none;
+    /* padding: 10px; */
+}
+
+/* button {
+    margin-left: auto;
+} */
+
+#final_result{
+    width: 800px;
+}
+
+@media screen and (max-width:800px) {
+    
+    #final_result {
+        width: 95%;
+    }
+}
+@media screen and (max-width:600px) {
+    .topics-box,
+    .btns-box,
+    .result_parent,
+    #online_exam_box,
+    .online-box,
+    #final_result {
+        width: 95%;
+    }
+
+   
+}
+
+@media screen and (max-width:489px) {
+    
+    #main_name h3{
+        font-size: 8vw;
+    }
+    #time_count{
+        font-size: 6vw;
+    }
+}
